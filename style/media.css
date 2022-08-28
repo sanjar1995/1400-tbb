@@ -1,0 +1,224 @@
+@media(max-width:1250px) {
+    .intro__title {
+        font-size: 41px;
+        line-height: 50px;
+    }
+
+    .header__nav {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .mobile__content,
+    .offers__content {
+        column-gap: 30px;
+    }
+}
+
+@media(max-width:1145px) {
+    .info__exchange-money {
+        flex-direction: column;
+    }
+
+    .info__exchange-money {
+        width: max-content;
+    }
+
+    .info__exchange {
+        justify-content: space-around;
+    }
+
+    .mobile__item {
+        column-gap: 10px !important;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .intro__title {
+        font-size: 37px;
+        line-height: 43px;
+    }
+}
+
+@media(max-width:1024px) {
+    .intro__content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .mobile__item-title {
+        font-size: 26px;
+    }
+}
+
+@media(max-width:930px) {
+    .visa__img {
+        width: 430px;
+    }
+
+    .mobile__content {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    .mobile__right {
+        row-gap: 30px;
+    }
+}
+
+@media(max-width:848px) {
+    .header__list {
+        column-gap: 10px;
+        margin-right: 20px;
+    }
+}
+
+@media(max-width:768px) {
+
+    .visa,
+    .info__exchange {
+        flex-direction: column;
+    }
+
+    .info__exchange-money {
+        flex-direction: row;
+        width: unset;
+        justify-content: center;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .mobile__app {
+        column-gap: 15px;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .header__menu {
+        position: fixed;
+        flex-direction: column;
+        right: 0;
+        top: 0;
+        padding: 30px;
+        backdrop-filter: blur(15px);
+        bottom: 0;
+        z-index: 999;
+        box-shadow: -3px 3px 14px 0px rgba(0, 0, 0, 0.52);
+        transform: translateX(105%);
+        transition: 0.3s;
+    }
+
+    .menu-btn {
+        display: block;
+        border: none;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .menu-btn:focus+.header__menu {
+        transform: translateX(0);
+
+    }
+
+    .header__list {
+        flex-direction: column;
+        align-items: flex-end;
+        row-gap: 20px;
+        margin-bottom: 40px;
+    }
+
+    .intro__title {
+        text-align: center;
+    }
+
+    .offers__content {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media(max-width:630px) {
+    .intro__app {
+        width: 95%;
+    }
+
+    .info__exchange-item {
+        width: 270px;
+    }
+
+    .intro__img {
+        width: 100%;
+    }
+}
+
+@media(max-width:592px) {
+    .info__exchange-item {
+        max-width: unset;
+        width: 84%;
+    }
+}
+
+@media(max-width:530px) {
+
+    .intro__app,
+    .mobile__app>a {
+        padding: 10px 0;
+    }
+}
+
+@media(max-width:425px) {
+    .intro__title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .intro__container {
+        height: max-content;
+    }
+    .visa__img,
+    .info__exchange-img {
+        width: 100%;
+    }
+    .mobile__item-title {
+        text-align: center;
+        font-size: 25px;
+    }
+    .info__exchange-item {
+        width: 100%;
+    }
+}
+
+@media(max-width:375px){
+    .intro__title {
+        font-size: 29px;
+        line-height: 36px;
+    }
+    .visa__content{
+        width: 100%;
+    }
+    .mobile__left .mobile__img{
+        width: 100%;
+    }
+    .footer{
+        padding-top: 0;
+    }
+}
+@media(max-width:320px){
+    .offers__img{
+        display: none;
+    }
+    .intro__title{
+        font-size: 24px;
+    }
+    .mobile__app,
+    .intro__app{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .mobile__right .mobile__item{
+        flex-direction: column !important;
+    }
+}
